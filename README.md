@@ -37,14 +37,14 @@ Demonstração do fluxo inicial da aplicação solicitando ao usuário o início
 
 | Modo Claro | Modo Escuro |
 | :---: | :---: |
-| ![Onboarding Light](screenshots/onboarding_light.png) | ![Onboarding Dark](screenshots/onboarding_dark.png) |
+| <img src="screenshots/onboarding_light.png" width="50%" alt="Onboarding Light"> | <img src="screenshots/onboarding_dark.png" width="50%" alt="Onboarding Dark"> |
 
 ### 2. Fluxo Completo: Lista Interativa, Animação e Preservação de Estado (GIF)
 Demonstração do funcionamento da `LazyColumn`, da transição animada ao expandir/recolher os cards e da preservação do estado da interface ao rotacionar o dispositivo (graças ao uso de `rememberSaveable`).
 
 | Demonstração Interativa |
 | :---: |
-| ![Demonstração da Aplicação](screenshots/rotation.gif) |
+<img src="screenshots/rotation.gif" width="30%" alt="Demonstração da Aplicação"> |
 
 ## Preview e Ferramentas de Desenvolvimento
 
