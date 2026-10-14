@@ -1,8 +1,6 @@
-# Modelo de README.md (Pronto para copiar)
-
 # Codelab: Noções Básicas do Jetpack Compose
 
-Este repositório contém a implementação prática desenvolvida durante o codelab **"Basics Codelab" (Noções Básicas do Jetpack Compose)**, disponibilizado pelo Google.
+Este repositório contém a implementação prática desenvolvida durante o codelab [**Basics Codelab (Noções Básicas do Jetpack Compose)**](https://developer.android.com/codelabs/jetpack-compose-basics?hl=pt-br#0), disponibilizado pelo Google.
 
 O objetivo deste projeto é explorar os fundamentos da construção de interfaces declarativas no Android usando Kotlin e Jetpack Compose.
 
@@ -41,21 +39,12 @@ Demonstração do fluxo inicial da aplicação solicitando ao usuário o início
 | :---: | :---: |
 | ![Onboarding Light](screenshots/onboarding_light.png) | ![Onboarding Dark](screenshots/onboarding_dark.png) |
 
-### 2. Lista Dinâmica e Interativa (LazyColumn & Card State)
-Demonstração do estado de expansão/recolhimento dos itens da lista e performance de rolagem.
+### 2. Fluxo Completo: Lista Interativa, Animação e Preservação de Estado (GIF)
+Demonstração do funcionamento da `LazyColumn`, da transição animada ao expandir/recolher os cards e da preservação do estado da interface ao rotacionar o dispositivo (graças ao uso de `rememberSaveable`).
 
-| Item Recolhido | Item Expandido |
-| :---: | :---: |
-| ![Card Collapsed](screenshots/card_collapsed.png) | ![Card Expanded](screenshots/card_expanded.png) |
-
-### 3. Animação de Expansão (GIF / Vídeo de Demonstração)
-Demonstração da animação fluida de transição e do funcionamento da preservação de estado ao rotacionar a tela.
-
-| Animação de Expansão | Suporte a Rotação de Tela |
-| :---: | :---: |
-| ![Animação](screenshots/animation.gif) | ![Rotação](screenshots/rotation.gif) |
-
----
+| Demonstração Interativa |
+| :---: |
+| ![Demonstração da Aplicação](screenshots/rotation.gif) |
 
 ## Preview e Ferramentas de Desenvolvimento
 
